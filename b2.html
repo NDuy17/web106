@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - TSHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success text-white">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">TSHOP</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">New Products</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Pages</a></li>
+                </ul>
+                <span class="text-white">My Account</span> &nbsp; | &nbsp; <span class="text-white">PC PART
+                    ($216.51)</span>
+                <i class="fa fa-search ms-3 text-white"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Category</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">All Page Link</a>
+            </ol>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-9">
+                <h4>Shopping Cart</h4>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Details</th>
+                            <th>Qty</th>
+                            <th>Discount</th>
+                            <th>Total</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="quanao.png" alt="Denim T Shirt Black" class="img-thumbnail"
+                                    style="width: 100px;"></td>
+                            <td>Denim T Shirt Black <br> Size: L <br> <strong>$8.00</strong></td>
+                            <td><input type="number" value="2" class="form-control" style="width: 60px;"></td>
+                            <td>$0</td>
+                            <td>$16.00</td>
+                            <td><button class="btn btn-danger"><i class="fa fa-minus"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="quanao.png" alt="Denim T Shirt Red" class="img-thumbnail"
+                                    style="width: 100px;"></td>
+                            <td>Denim T Shirt Red <br> Size: L <br> <strong>$8.00</strong></td>
+                            <td><input type="number" value="3" class="form-control" style="width: 60px;"></td>
+                            <td>$0</td>
+                            <td>$24.00</td>
+                            <td><button class="btn btn-danger"><i class="fa fa-minus"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="quanao.png" alt="Denim T Shirt Blue" class="img-thumbnail"
+                                    style="width: 100px;"></td>
+                            <td>Denim T Shirt Blue <br> Size: L <br> <strong>$8.00</strong></td>
+                            <td><input type="number" value="3" class="form-control" style="width: 60px;"></td>
+                            <td>$0</td>
+                            <td>$24.00</td>
+                            <td><button class="btn btn-danger"><i class="fa fa-minus"></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="btn btn-secondary">Continue Shopping</a>
+                    <a href="#" class="btn btn-primary">Update Cart</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="border p-3">
+                    <h5>Total products: $216.51</h5>
+                    <p>Shipping: <span class="text-success">Free shipping!</span></p>
+                    <p>Total tax: $0.00</p>
+                    <h4 class="text-success">Total: $216.51</h4>
+                    <button class="btn btn-success w-100 mb-2">Proceed to Checkout</button>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Coupon code">
+                        <button class="btn btn-primary">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-4">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <h6>SUPPORT</h6>
+                <p>+1-202-555-0151</p>
+                <p>help@yourweb.com</p>
+            </div>
+            <div>
+                <h6>SHOP</h6>
+                <p>Men's Clothing</p>
+                <p>Women's Clothing</p>
+                <p>Shoes</p>
+            </div>
+            <div>
+                <h6>INFORMATION</h6>
+                <p>Contact us</p>
+                <p>Return policy</p>
+            </div>
+            <div>
+                <h6>MY ACCOUNT</h6>
+                <p>My account</p>
+                <p>Order history</p>
+            </div>
+            <div>
+                <h6>STAY IN TOUCH</h6>
+                <input type="email" class="form-control mb-2" placeholder="Email">
+                <button class="btn btn-success mb-2">Subscribe</button>
+                <div>
+                    <i class="fab fa-facebook fa-lg me-2"></i>
+                    <i class="fab fa-twitter fa-lg me-2"></i>
+                    <i class="fab fa-instagram fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>© TSHOP 2014. All right reserved.</p>
+            <img src="https://i.imgur.com/7kQEsHU.png" alt="Payment methods" style="width: 150px;">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
